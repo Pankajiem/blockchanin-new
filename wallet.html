@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+	 <meta name="language" content="en">
+	  <meta charset="utf-8">
+	  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	  <meta property="og:locale" content="en_US" />
+	  <meta property="og:type" content="website" />
+
+
+	<title></title>
+	   <link rel="stylesheet" href="http://beeknock.com/tools/bee-icon/beeicon-font.css">
+
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+		<nav class="navbar navbar-default navbar-theme">
+			<div class="container">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-sample" aria-expanded="false">
+
+						<span class="search-wrap">
+								<i class="bee-icon-search search-icon"></i>
+								<span class="input-search-box">
+									<input type="text">
+								</span>
+							</span>
+
+					</button>
+					
+					<a class="navbar-brand" href="#">
+						<img style="width: 150px;margin-top: -5px;" src="img/Influencer.svg" alt="">
+		 
+					</a>
+				</div>
+		
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="navbar-sample">
+					
+					<ul class="nav navbar-nav navbar-right">
+						<li>
+							<a href="#" class="search-wrap">
+								<i class="bee-icon-search search-icon"></i>
+								<span class="input-search-box">
+									<input type="text">
+								</span>
+							</a>
+						</li>
+						<li>
+							<a href="index.html">
+								<i class="bee-icon-home-o"></i>
+							</a>
+						</li>
+						<li>
+							<a href="wallet.html">
+								<i class="bee-icon-wallet"></i>
+							</a>
+						</li>
+						<li>
+							<a href="social-connect.html">
+								<i class="bee-icon-bell-o"></i>
+							</a>
+						</li>
+						<li>
+							<a href="profile.html">
+								<i class="bee-icon-user"></i>
+							</a>
+						</li>
+						<li>
+							<button class="btn btn-theme navbar-btn">
+								Create Post <i class="bee-icon-plus-sign-curcle-o"></i>
+							</button>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+			<main class="container">
+				<center>
+					<h2>Wallet</h2>
+					<img class="wallet-img" src="img/wallet.svg" alt="">
+					
+				</center>
+				<div class="row">
+					<table class="table wall-historylist">
+						<tr class="text-center">
+							<th>COIN</th>
+							<th>BALANCE</th>
+							<th>HISTORY</th>
+						</tr>
+						<tr class="text-center">
+							<td>Bitcoin</td>
+							<td>0.00000004 BTC</td>
+							<td></td>
+						</tr>
+						<tr class="text-center">
+							<td>Bitcoin</td>
+							<td>0.00000004 BTC</td>
+							<td></td>
+						</tr>
+					</table>
+				</div>
+					
+			</main>
+
+
+				<div class="mobile-bottom-menu visible-xs">
+				<ul class="">
+					
+					<li>
+						<a href="index.html">
+							<i class="bee-icon-home-o"></i>
+						</a>
+					</li>
+					<li>
+						<a href="wallet.html">
+							<i class="bee-icon-wallet"></i>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							
+							<input style="width: 40px;height: 40px" type="file" class="custom-file-input">
+						</a>
+					</li>
+					<li>
+						<a href="notifications.html">
+							<i class="bee-icon-bell-o"></i>
+						</a>
+					</li>
+					<li>
+						<a href="profile.html">
+							<i class="bee-icon-user"></i>
+						</a>
+					</li>
+					
+				</ul>
+			</div>
+
+<script src="js/jquery.min.js"></script>
+			<script>
+				$('.search-icon').click(function(e) {
+					e.preventDefault();
+					$(this).toggleClass('active');
+					$(this).parent('.search-wrap').find('.input-search-box').toggleClass('activated');
+					
+				})
+
+				$('.search-wrap').preventDefault();
+			</script>
+</body>
+</html>
