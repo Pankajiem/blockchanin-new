@@ -181,9 +181,12 @@ body {
 	margin-top: 30px;
 }
 .notification-list li {
-	    border-bottom: 1px solid #00000017;
-	        padding: 10px 15px;
-	        background: rgba(116, 44, 235, 0.04);
+	 
+    padding: 10px 15px;
+    background: rgba(116, 44, 235, 0.04);
+    border: 1px solid #0000000a;
+    margin: 10px auto;
+    border-radius: 4px;
 }
 
 .notification-list li p {
@@ -197,7 +200,7 @@ body {
 .notification-list time {
 	margin-top: -8px;
 	    display: block;
-	    color: #0000007d;
+	    color: #FF5722;
 	    /* margin-top: 10px; */
 	    padding-bottom: 5px;
 	    font-style: italic;
