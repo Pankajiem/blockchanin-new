@@ -13,6 +13,24 @@
 	<link rel="stylesheet" href="icons/beeicon-font.css">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/main.css">
+
+<style>
+
+.action-icon .bee-icon-star-o {
+	transition: all .1s;
+}
+.action-icon .bee-icon-star-o:hover {
+	transform: scale(1.5);
+	
+}
+	.bee-icon-star-o.active:before {
+		content: "\e981";
+		font-family: bee-icon;
+		color: #ff9600;
+	}
+</style>
+
+
 </head>
 <body>
 			<nav class="navbar navbar-default navbar-theme">
@@ -124,6 +142,10 @@
 				     			</a>
 				     			<a href="">
 				     				<i class="bee-icon-star-o"></i>
+				     			</a>
+
+				     			<a href="#" class="action-icon">
+				     				<i class="bee-icon-star-o "></i>
 				     			</a>
 				     			
 				     			<a href="">
@@ -272,7 +294,13 @@
 					
 				})
 
-				$('.search-wrap').preventDefault();
+				
+
+				$('.action-icon').click(function(e) {
+					e.preventDefault();
+					$('.action-icon > i').toggleClass('active');
+				})
+
 			</script>
 </body>
 </html>
